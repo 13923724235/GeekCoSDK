@@ -23,9 +23,9 @@ Pod::Spec.new do |spec|
   spec.author             = { "xiaowu" => "735917654@qq.com" }#作者
   spec.platform     = :ios #支持平台
   spec.ios.deployment_target = '9.0' #支持iOS最低版本
-  spec.source       = { :git => "https://github.com/13923724235/GeekCoSDK.git", :tag => spec.version } #源代码地址
+  spec.source       = { :git => "https://github.com/13923724235/GeekCoSDK.git", :tag => spec.version.to_s } #源代码地址
  
-  spec.ios.vendored_frameworks = 'Framework/GeekMXSDK.framework'#SDK相对本文件路径
+  spec.ios.vendored_frameworks = 'NEWSDK/GeekMXSDK.framework'#SDK相对本文件路径
   spec.frameworks = "UIKit", "Foundation","AudioToolbox"#SDK依赖的系统库文件
  
   spec.requires_arc = true #是否是自动内存管理
