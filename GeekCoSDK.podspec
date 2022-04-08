@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }#创建GitHub仓库时使用的license类型
   spec.author             = { "xiaowu" => "735917654@qq.com" }#作者
-  spec.platform     = :ios#支持平台
+  spec.platform     = :ios #支持平台
   spec.ios.deployment_target = '9.0' #支持iOS最低版本
   spec.source       = { :git => "https://github.com/13923724235/GeekCoSDK.git", :tag => spec.version } #源代码地址
  
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = "UIKit", "Foundation","AudioToolbox"#SDK依赖的系统库文件
  
   spec.requires_arc = true #是否是自动内存管理
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64'}#支持架构配置
+  #spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64'}#支持架构配置
   spec.dependency "YYModel"#依赖的第三方库1
   spec.dependency "AFNetworking"#依赖的第三方库2
 
