@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }#创建GitHub仓库时使用的license类型
   spec.author             = { "xiaowu" => "735917654@qq.com" }#作者
   spec.platform     = :ios#支持平台
-  spec.ios.deployment_target = "9.0"#支持iOS最低版本
+  spec.ios.deployment_target = "8.0"#支持iOS最低版本
   spec.source       = { :git => "https://github.com/13923724235/GeekCoSDK.git", :tag => "#{spec.version}" } #源代码地址
  
   spec.ios.vendored_frameworks = 'Framework/GeekMXSDK.framework'#SDK相对本文件路径
