@@ -26,10 +26,13 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/13923724235/GeekCoSDK.git", :tag => spec.version.to_s } #源代码地址
  
   spec.ios.vendored_frameworks = 'GeekMXSDK.framework'#SDK相对本文件路径
+
+  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' } #支持架构配置
+
   spec.frameworks = "UIKit", "Foundation","AudioToolbox"#SDK依赖的系统库文件
  
   spec.requires_arc = true #是否是自动内存管理
-  #spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64'}#支持架构配置
+ 
   spec.dependency "YYModel"#依赖的第三方库1
   spec.dependency "AFNetworking"#依赖的第三方库2
 
