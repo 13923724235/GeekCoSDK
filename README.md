@@ -4,7 +4,7 @@
 
 ## SDK引⼊后前配置
 ### 需要在Plist⽂件增加各种权限如下图
-![image](https://github.com/13923724235/GeekCoSDK/blob/master/ScreenShot/jietu_01.png) 
+![image](https://github.com/13923724235/GeekCoSDK/blob/master/Screenshot/jietu_01.png) 
 
 ### 需要调整您项⽬的Build Settings ⾥⾯ Other Linker Flags 配置 增加 -ObjC 内容
 ![image](https://github.com/13923724235/GeekCoSDK/ScreenShot/jietu_02.png) 
