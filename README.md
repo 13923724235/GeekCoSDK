@@ -7,17 +7,17 @@
 ![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_01.png) 
 
 ### 需要调整您项⽬的Build Settings ⾥⾯ Other Linker Flags 配置 增加 -ObjC 内容
-![image](https://github.com/13923724235/GeekCoSDK/blob/main/ScreenShot/jietu_02.png) 
+![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_02.png) 
 
 ### 配置Singning & Capabilities
-![image](https://github.com/13923724235/GeekCoSDK/blob/main/ScreenShot/jietu_03.png) 
+![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_03.png) 
 
 ### 把framework引⼊项⽬或者用Cocoapods方式集成
 - 手动集成，把framework引⼊项⽬
-![image](https://github.com/13923724235/GeekCoSDK/blob/main/ScreenShot/jietu_04.png) 
+![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_04.png) 
 
 - Cocoapods集成，Podfile里添加GeekCoSDK，再在终端执行pod install命令等在集成即可
-![image](https://github.com/13923724235/GeekCoSDK/blob/main/ScreenShot/jietu_05.png) 
+![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_05.png) 
 
 ## SDK使⽤⽅法
 ### GeekSDKManager是整个SDK的使⽤对象 该类是⼀个单例，所有消息和场景都是该类做操作。
