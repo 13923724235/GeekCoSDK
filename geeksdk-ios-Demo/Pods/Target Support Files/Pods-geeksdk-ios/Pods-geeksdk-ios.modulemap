@@ -1,0 +1,6 @@
+framework module Pods_geeksdk_ios {
+  umbrella header "Pods-geeksdk-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

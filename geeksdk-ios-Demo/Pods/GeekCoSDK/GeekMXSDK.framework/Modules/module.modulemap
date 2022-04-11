@@ -1,0 +1,6 @@
+framework module GeekMXSDK {
+  umbrella header "GeekMXSDK.h"
+
+  export *
+  module * { export * }
+}
