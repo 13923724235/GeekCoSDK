@@ -9,6 +9,9 @@
 ### 需要调整您项⽬的Build Settings ⾥⾯ Other Linker Flags 配置 增加 -ObjC 内容
 ![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_02.png) 
 
+### 需要调整您项⽬的Build Settings ⾥⾯ Other Linker Flags 配置 增加 $(inherited)
+![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_06.png) 
+
 ### 配置Singning & Capabilities
 ![image](https://github.com/13923724235/GeekCoSDK/blob/main/Screenshot/jietu_03.png) 
 
