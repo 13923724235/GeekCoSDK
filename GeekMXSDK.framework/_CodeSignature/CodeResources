@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		qQzO8jNjIfmNM05Ithtc+sxTYwQ=
-		</data>
 		<key>Headers/GeekMXSDK.h</key>
 		<data>
 		k0B/trwWQSCda4ZiVfEAzm5BgEY=
 		</data>
 		<key>Headers/GeekSDKManager.h</key>
 		<data>
-		PQzuJHBF8JLHSQ+aIXt4KFBCDPk=
+		ZZDxOcz/DIxqmPRp4QK0uutKhOA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OUCIXdVkCVvzGZD2qGKkB+YoFZ4=
+		aFZDSFjHSrcRnAJqh+9TKBKaD5A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +38,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PQzuJHBF8JLHSQ+aIXt4KFBCDPk=
+			ZZDxOcz/DIxqmPRp4QK0uutKhOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mRUjiCPg8ec0hrPMPl6PFur1ZOnyQKjk5ZMQuXrZ0PI=
+			VcbBe0cjY0vz+CdctKTfNnVZ/fjesCjVh5g5dvsodzw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
