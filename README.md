@@ -59,6 +59,12 @@
 /// @param completion 上传回调
 - (void)uploadLogWithCompleted:(GeekSDKManagerUpLoadBlock)completion;
 ```
+6.iBeacon回调监听
+```Objective-C
+/// 用于初始化接收后台区域监听回调类，此函数以及handler实体类都必须是与AppDelegate随同启动，否则无法接收到后台beacon推送
+/// @param handler 用于接收后台区域监听回调函数的类。传入的handler类用作接收回调（该类务必随程序的启动即初始化，否则无法接收到回调，默认handler为AppDelegate）
+- (void)regionHandler:(id<GKBeaconRegionDelegate>)handler;
+```
 
 ## ********** Block数据回调 **********
 
